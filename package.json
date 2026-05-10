@@ -2,6 +2,14 @@
   "name": "tp3",
   "version": "1.0.0",
   "description": "grupo-18",
+  "homepage": "https://github.com/AndresAguay0/trabajo-practico-3#readme",
+  "bugs": {
+    "url": "https://github.com/AndresAguay0/trabajo-practico-3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresAguay0/trabajo-practico-3.git"
+  },
   "license": "MIT",
   "author": "Fabricio Maida, Andres Aguayo, Ailen Villalba, Valentina Vitale, Alesio Cragno",
   "type": "commonjs",
