@@ -1,14 +1,17 @@
 [
   {
-    "id": 1
+    "id": 1,
+    "precio": 10000,
+    "titulo": "Mesa para 1-4 persona/s"
   },
   {
-    "id": 2
+    "id": 2,
+    "precio": 70000,
+    "titulo": "Sector para cumpleaños"
   },
   {
-    "id": 3
-  },
-  {
-    "id": 4
+    "id": 3,
+    "precio": 50000,
+    "titulo": "Mesa en terraza VIP"
   }
 ]
