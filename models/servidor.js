@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors')
+
 require('dotenv').config()
 
 class Server {
@@ -15,8 +16,8 @@ class Server {
   }
 
   rutas() {
-    this.app.use('/servicios', require('../routes/equipoRoutes'))
-    this.app.use('/equipo', require('../routes/serviciosRoutes'))
+    this.app.use('/servicios', require('../routes/serviciosRoutes'))
+    this.app.use('/equipo', require('../routes/equipoRoutes'))
 
     // manejo de errores
     this.app.use((req, res, next) => {
