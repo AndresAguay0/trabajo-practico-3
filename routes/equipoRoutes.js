@@ -1,9 +1,10 @@
-﻿const { Router } = require('express')
+﻿const express = require('express')
+const { Router } = require('express')
+const { getEquipo, getEquipoById } = require('../controllers/equipoController')
 
 const rutas = Router()
 
-rutas.get('/', (req, res) => {
-  return res.status(200).json({ msg: 'Ruta de equipo activa' })
-})
+rutas.get('/', getEquipo)
+rutas.get('/:id', getEquipoById)
 
 module.exports = rutas
