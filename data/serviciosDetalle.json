@@ -2,5 +2,13 @@
   {
     "id": 1,
     "detalle": "detalle"
+  },
+  {
+    "id": 2,
+    "detalle": "detalle2"
+  },
+  {
+    "id": 3,
+    "detalle": "detalle3"
   }
 ]

@@ -1,8 +1,12 @@
 const { Router } = require('express')
-const { getServicios } = require('../controllers/serviciosController')
+const {
+  getServicios,
+  getServiciosById
+} = require('../controllers/serviciosController')
 
 const rutas = Router()
 
 rutas.get('/', getServicios)
+rutas.get('/:id', getServiciosById)
 
 module.exports = rutas
