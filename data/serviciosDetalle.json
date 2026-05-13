@@ -19,5 +19,96 @@
     "precio": 50000,
     "titulo": "Mesa en terraza VIP",
     "descripcion": "Reservá una mesa en nuestro sector VIP sobre la terraza. Disponemos de los mejores mozos exclusivos de este sector! Inclusive existe la chance de que te atienda el mismísimo dueño, el gran Gerónimo 'Tito Calderón' Benavides"
+  },
+  {
+    "id": 4,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 15000,
+    "titulo": "Espacio Co-working",
+    "descripcion": "Un rincón tranquilo con conexión Wi-Fi de alta velocidad y café ilimitado por 4 horas para que metas el 'grindeo' laboral."
+  },
+  {
+    "id": 5,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 120000,
+    "titulo": "Evento Privado Corporativo",
+    "descripcion": "Alquilá el local completo para tu empresa. Incluye catering temático y sonido profesional para presentaciones."
+  },
+  {
+    "id": 6,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 8500,
+    "titulo": "Mesa de Streamer",
+    "descripcion": "Mesa equipada con iluminación perimetral y soporte para celular, ideal para hacer tus historias o prender stream mientras merendás."
+  },
+  {
+    "id": 7,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 25000,
+    "titulo": "Cata de Café Especialidad",
+    "descripcion": "Un recorrido sensorial por granos de Colombia, Etiopía y Brasil guiado por nuestros expertos baristas."
+  },
+  {
+    "id": 8,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 45000,
+    "titulo": "Sector 'La Comuna'",
+    "descripcion": "Mesa larga para grupos grandes de amigos. Ideal para juntadas de fin de año con el espíritu de la comunidad."
+  },
+  {
+    "id": 9,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 12000,
+    "titulo": "Desayuno Italiano",
+    "descripcion": "En honor a las raíces de la casa: Ristretto doble, cornetto artesanal y un jugo de naranja exprimido."
+  },
+  {
+    "id": 10,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 30000,
+    "titulo": "Alquiler Sala de Podcast",
+    "descripcion": "Cabina insonorizada con micrófonos Shure y consola. Grabá tu contenido mientras disfrutás de un latte."
+  },
+  {
+    "id": 11,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 65000,
+    "titulo": "Cena Show en Vivo",
+    "descripcion": "Noches especiales con artistas invitados y un menú de pasos exclusivo. Consultar cartelera semanal."
+  },
+  {
+    "id": 12,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 9000,
+    "titulo": "Reserva Pet Friendly",
+    "descripcion": "Tu mascota es bienvenida. Reservamos un lugar cómodo y le regalamos un 'puppuccino' de cortesía."
+  },
+  {
+    "id": 13,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 55000,
+    "titulo": "Degustación de Pastelería",
+    "descripcion": "Una tabla con mini porciones de nuestras 5 tortas estrellas. Ideal para compartir entre dos personas."
+  },
+  {
+    "id": 14,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 40000,
+    "titulo": "Mesa Balcón al Atardecer",
+    "descripcion": "La mejor vista de la ciudad. Una ubicación privilegiada para ver el sol caer con una propuesta de tragos con café."
+  },
+  {
+    "id": 15,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 110000,
+    "titulo": "Masterclass con Barista",
+    "descripcion": "Aprendé a hacer arte latte y a calibrar el molino como un profesional en una clase personalizada de 3 horas."
+  },
+  {
+    "id": 16,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 20000,
+    "titulo": "After Office Platense",
+    "descripcion": "Promoción de 2x1 en cócteles seleccionados y una picada clásica para cerrar el día con tu equipo de trabajo."
   }
 ]
