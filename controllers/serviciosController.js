@@ -48,7 +48,7 @@ const getServiciosById = async (req, res) => {
   } catch (error) {
     console.log(error)
     return res.status(500).JSON({
-      error: `No se pudo obtener el detalle del servicio del id: ${id}`
+      error: 'No se pudo obtener el detalle del servicio de la id buscada'
     })
   }
 }
