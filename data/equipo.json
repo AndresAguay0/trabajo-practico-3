@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "imagen": "../assets/img/momobenavides.png",
+    "nombre": "Momo Benavides",
+    "puesto": "Fundador y Jefe",
+    "desc": "Momo es el fundador y jefe de Il Momo Cafetería, con una visión clara y una pasión por la excelencia en cada aspecto de la operación."
+  },
+  {
+    "id": 2,
+    "imagen": "../assets/img/gonzalobanzas.png",
+    "nombre": "Gonzalo Banzas",
+    "puesto": "Maestro Pastelero",
+    "desc": "Gonzalo es nuestro maestro pastelero, con una habilidad excepcional para crear postres deliciosos y visualmente impresionantes."
+  },
+  {
+    "id": 3,
+    "imagen": "../assets/img/martinperezdisalvo.png",
+    "nombre": "Martin P. Disalvo",
+    "puesto": "Barista",
+    "desc": "Martin es nuestro barista experto, conocido por su destreza para preparar el café perfecto y su pasión por el arte del latte."
+  },
+  {
+    "id": 4,
+    "imagen": "../assets/img/pabloballon.png",
+    "nombre": "Pablo Ballon",
+    "puesto": "Asistente de Cocina",
+    "desc": "Pablo es nuestro asistente de cocina, siempre dispuesto a ayudar y aprender, contribuyendo al buen funcionamiento de la cocina."
+  },
+  {
+    "id": 5,
+    "imagen": "../assets/img/federicocristalino.png",
+    "nombre": "Federico Cristalino",
+    "puesto": "Atención al Cliente",
+    "desc": "Federico es nuestro especialista en atención al cliente, siempre asegurándose de que cada comensal tenga una experiencia agradable y satisfactoria."
+  }
+]

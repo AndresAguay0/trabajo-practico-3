@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "img": "../assets/img/mesa-cafe-1.png",
+    "precio": 10000,
+    "titulo": "Mesa para 1-4 persona/s"
+  },
+  {
+    "id": 2,
+    "img": "../assets/img/mesa-cafe-2.png",
+    "precio": 70000,
+    "titulo": "Sector para cumpleaños"
+  },
+  {
+    "img": "../assets/img/mesa-cafe-3.png",
+    "id": 3,
+    "precio": 50000,
+    "titulo": "Mesa en terraza VIP"
+  },
+  {
+    "id": 4,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 15000,
+    "titulo": "Espacio Co-working"
+  },
+  {
+    "id": 5,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 120000,
+    "titulo": "Evento Privado Corporativo"
+  },
+  {
+    "id": 6,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 8500,
+    "titulo": "Mesa de Streamer"
+  },
+  {
+    "id": 7,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 25000,
+    "titulo": "Cata de Café Especialidad"
+  },
+  {
+    "id": 8,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 45000,
+    "titulo": "Sector 'La Comuna'"
+  },
+  {
+    "id": 9,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 12000,
+    "titulo": "Desayuno Italiano"
+  },
+  {
+    "id": 10,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 30000,
+    "titulo": "Alquiler Sala de Podcast"
+  },
+  {
+    "id": 11,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 65000,
+    "titulo": "Cena Show en Vivo"
+  },
+  {
+    "id": 12,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 9000,
+    "titulo": "Reserva Pet Friendly"
+  },
+  {
+    "id": 13,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 55000,
+    "titulo": "Degustación de Pastelería"
+  },
+  {
+    "id": 14,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 40000,
+    "titulo": "Mesa Balcón al Atardecer"
+  },
+  {
+    "id": 15,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 110000,
+    "titulo": "Masterclass con Barista"
+  },
+  {
+    "id": 16,
+    "img": "../assets/favicon/momo_img.png",
+    "precio": 20000,
+    "titulo": "After Office Platense"
+  }
+]
