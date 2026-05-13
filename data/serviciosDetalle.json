@@ -1,14 +1,23 @@
 [
   {
     "id": 1,
-    "detalle": "detalle"
+    "img": "../assets/img/mesa-cafe-1.png",
+    "precio": 10000,
+    "titulo": "Mesa para 1-4 persona/s",
+    "descripcion": "Perfecta para invitar a tu cita a desayunar o para organizar una reunión laboral"
   },
   {
     "id": 2,
-    "detalle": "detalle2"
+    "img": "../assets/img/mesa-cafe-2.png",
+    "precio": 70000,
+    "titulo": "Sector para cumpleaños",
+    "descripcion": "Podés festejar tu propio cumpleaños en el local! O incluso festejarle a un amigo el suyo como sorpresa"
   },
   {
+    "img": "../assets/img/mesa-cafe-3.png",
     "id": 3,
-    "detalle": "detalle3"
+    "precio": 50000,
+    "titulo": "Mesa en terraza VIP",
+    "descripcion": "Reservá una mesa en nuestro sector VIP sobre la terraza. Disponemos de los mejores mozos exclusivos de este sector! Inclusive existe la chance de que te atienda el mismísimo dueño, el gran Gerónimo 'Tito Calderón' Benavides"
   }
 ]
