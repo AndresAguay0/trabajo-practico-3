@@ -8,13 +8,68 @@
 > - Valentina Vitale
 > - Alesio Cragno
 
-## Equipo:
+## "IL MOMO" Cafetería
 
-# back-end(repositorio-tp-3):
+El objetivo de esta cafetería es dar el mejor servicio a cada cliente.
+
+## Metodologías Usadas
+
+- Git/GitHub
+- Metodología de trabajo de una rama por alumno
+
+## División de trabajo
+
+#### GET/servicios y GET/servicios/:id
+
+- Andrés Aguayo
+
+#### GET/equipo
+
+- Alesio Cragno
+- Valentina Vitale
+
+#### GET/perfil/:id
+
+- Fabricio Maida
+- Ailén Villalba
+
+## ARCHIVOS Y CARPETAS
+
+- **controllers/** equipoController.js, serviciosController.js
+- **data/** equipo.json, servicios.json, serviciosDetalle.json
+- **models/** servidor.js
+- **routes/** equipoRoutes.js, serviciosRoutes.js
+- .gitignore, app.js, package-lock.json, package.json, README.md
+
+## Servicios
+
+---Realizado por Andrés Aguayo
+
+### back-end(repositorio-tp-3):
+
+- **_getServicios_**: La función asincrónica anónima de `getServicios` intenta buscar los datos del JSON `servicios.json` y guardarlos en una constante `data`. Luego parsea el JSON, lo guarda en una constante `servicios` y lo devuelve en la `res` de la función. Además, tiene un control de errores que devuelve un error 500 en caso de que algo falle.
+
+- **_getServiciosById_**: La función asincrónica anónima de `getServiciosById` intenta buscar los datos del JSON `serviciosDetalle` y guardarlos en una constante `data`. Después parsea la información recibida y guarda la información del JSON que coincida en ID con la pasada por el cliente en el `req`. Si no es encontrada, se devuelve un error 404. Si se encuentra un objeto con esa ID, se retorna junto con un código 200 en el `res` de la función. Además, tiene un control de errores que devuelve un error 500 en caso de que algo falle.
+
+### front-end (repositorio-tp-1):
+
+- **_cargarServicios()_**: Esta función asincrónica primeramente carga un loader mientras se cargan los datos, o mientras las funciones no se logren ejecutar. Luego busca los datos de los servicios haciendo un `fetch` a la dirección del back-end. Una vez obtenidos los datos, los pasa a JSON. Antes que nada, se limpia el HTML del loader. Ahora, por cada objeto en el JSON crea un elemento div con su contenido interno basado en las tarjetas del TP-1 y los va agregando al elemento `cardContainer` del HTML. Además, a cada elemento le agrega un botón de "Más info" con una funcionalidad propia que llama a la función `servicioPorId()`. Esto también cuenta con un log de error por si lo anterior no se puede realizar.
+
+- **_servicioPorId(id)_**: Esta función asincrónica primeramente carga un loader mientras se cargan los datos, o mientras las funciones no se logren ejecutar. Luego busca los datos del servicio con la ID pasada como parámetro haciendo un `fetch`. Una vez recibida la información del servicio, se convierte a JSON. Ahora se limpia el loader del HTML y se crea un elemento div para rellenar con los datos del servicio. Además, le agrega un botón para poder volver a la muestra de todos los servicios, que tiene una función que llama a la función `cargarServicios()`. También tiene un log de error por si no se puede realizar su funcionalidad.
+
+### Estructura JSON:
+
+- **_servicios.json_**: Contiene un arreglo de objetos que se componen por una id única, una dirección relativa de una imagen que se encuentra en el front-end, precio y el título del servicio.
+
+- **_serviciosDetalle.json_**: Este json expande sobre el archivo anterior, teniendo id, dirección de imagen, precio y título del servicio. Además este archivo agrega una descripción detallada del servicio.
+
+## Equipo:
 
 ---Realizado por Valentina Vitale y Alesio Cragno.
 
-_equipoController.js:_ Este archivo usa `fs` para leer el archivo `equipo.json` y trabajar con los datos de los equipos. La función `getEquipo` devuelve todos los equipos guardados en el JSON, mientras que `getEquipoById` busca y devuelve un equipo específico según el `id` recibido por la URL. Ambas funciones usan `async/await` para manejar la lectura del archivo de forma asincrónica y tienen manejo de errores para responder correctamente si ocurre algún problema o si no se encuentra el equipo solicitado.
+### back-end(repositorio-tp-3):
+
+_equipoController.js:_ Este archivo usa `fs` para leer el archivo `equipo.json` y trabajar con los datos de los equipos. La función `getEquipo` devuelve todos los equipos guardados en el JSON. La funcion usa `async/await` para manejar la lectura del archivo de forma asincrónica y tiene manejo de errores para responder correctamente si ocurre algún problema o si no se encuentran los datos.
 
 _equipo.json:_ Este JSON guarda cada integrante del equipo con sus respectivos datos.
 
@@ -22,7 +77,7 @@ _servidor.js:_ Se agrego `this.app.use('/equipo', require('../routes/equipoRoute
 
 _equipoRoutes.js:_ Se creo `equipoRoutes.js`
 
-# front-end(repositorio-tp-1):
+### front-end(repositorio-tp-1):
 
 _equipo.js:_ Este código obtiene el contenedor de tarjetas del HTML y crea la función `cargarEquipo`, que se encarga de pedir los datos del equipo al backend usando `fetch`. Mientras llegan los datos, muestra un loader de carga. Luego convierte la respuesta a JSON y recorre el arreglo recibido con `forEach`, creando dinámicamente una tarjeta para cada integrante del equipo con su imagen, nombre, puesto y descripción. Finalmente, agrega cada tarjeta al contenedor en la página. Si ocurre un error, lo muestra en la consola.
 
