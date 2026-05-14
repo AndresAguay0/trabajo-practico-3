@@ -4,7 +4,7 @@
     "nombre": "Ana Torres",
     "mail": "ana.torres@gmail.com",
     "fechaRegistro": "2026-01-10",
-    "foto": "../assets/img/perfil",
+    "foto": "../assets/img/perfil.png",
     "ultimosPedidos": ["Mesa Estandar", "Mesa Estandar", "Mesa Cumpleaños"]
   },
   {
@@ -12,7 +12,7 @@
     "nombre": "Lucas Fernández",
     "mail": "lucas.fernandez@gmail.com",
     "fechaRegistro": "2026-02-15",
-    "foto": "../assets/img/perfil",
+    "foto": "../assets/img/perfil.png",
     "ultimosPedidos": ["Mesa VIP", "Mesa Estandar", "Mesa Estandar"]
   },
   {
@@ -20,7 +20,7 @@
     "nombre": "Martina Gómez",
     "mail": "martina.gomez@gmail.com",
     "fechaRegistro": "2026-03-08",
-    "foto": "../assets/img/perfil",
+    "foto": "../assets/img/perfil.png",
     "ultimosPedidos": ["Mesa Cumpleaños", "Mesa Cumpleaños", "Mesa VIP"]
   },
   {
@@ -28,7 +28,7 @@
     "nombre": "Tomás Ruiz",
     "mail": "tomas.ruiz@gmail.com",
     "fechaRegistro": "2026-01-22",
-    "foto": "../assets/img/perfil",
+    "foto": "../assets/img/perfil.png",
     "ultimosPedidos": ["Mesa Estandar", "Mesa Estandar", "Mesa Estandar"]
   },
   {
@@ -36,7 +36,7 @@
     "nombre": "Sofía López",
     "mail": "sofia.lopez@gmail.com",
     "fechaRegistro": "2026-04-01",
-    "foto": "../assets/img/perfil",
+    "foto": "../assets/img/perfil.png",
     "ultimosPedidos": ["Mesa VIP", "Mesa VIP", "Mesa Cumpleaños"]
   }
 ]

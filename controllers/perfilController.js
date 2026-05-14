@@ -1,31 +1,35 @@
 const fs = require('fs').promises
 
 const getPerfilById = async (req, res) => {
-  try {
-    console.log('- Buscando datos -')
-    const data = await fs.readFile('./data/perfil.json', 'utf-8')
 
-    console.log('- Parseando informacion -')
-    const perfil = JSON.parse(data)
+    try {
 
-    console.log('- Buscando la id deseada -')
-    const { id } = req.params
-    const perfilId = perfil.find((s) => s.id === parseInt(id))
+        const data = await fs.readFile('./data/perfil.json', 'utf-8')
 
-    console.log('- Comprobando validez de la id -')
-    if (!perfilId) {
-      console.log('- Id no encontrada -')
-      return res.status(404).json({ msg: `No existe el perfil con id ${id}` })
+        const perfiles = JSON.parse(data)
+
+        const { id } = req.params
+
+        const perfil = perfiles.find(
+            (p) => p.id === parseInt(id)
+        )
+
+        if (!perfil) {
+            return res.status(404).json({
+                msg: 'Perfil no encontrado'
+            })
+        }
+
+        return res.status(200).json(perfil)
+
+    } catch (error) {
+
+        console.log(error)
+
+        return res.status(500).json({
+            error: 'Error interno'
+        })
     }
-
-    console.log('- Datos enviados con exito -')
-    return res.status(200).json(perfilId)
-  } catch (error) {
-    console.log(error)
-    return res.status(500).JSON({
-      error: 'No se pudo obtener el detalle del perfil de la id buscada'
-    })
-  }
 }
 
 module.exports = { getPerfilById }
