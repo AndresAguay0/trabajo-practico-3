@@ -1,8 +1,9 @@
 const { Router } = require('express')
-const { getPerfilById } = require('../controllers/perfilController')
+const { getPerfil, getPerfilById } = require('../controllers/perfilController')
 
 const rutas = Router()
 
-rutas.get('/:id', getPerfilbyId)
+rutas.get('/', getPerfil)
+rutas.get('/:id', getPerfilById)
 
 module.exports = rutas
