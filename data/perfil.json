@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana Torres",
+    "mail": "ana.torres@gmail.com",
+    "fechaRegistro": "2026-01-10",
+    "foto": "https://randomuser.me/api/portraits/women/1.jpg",
+    "ultimosPedidos": [
+      "Mesa Estandar",
+      "Mesa Estandar",
+      "Mesa Cumpleaños"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Lucas Fernández",
+    "mail": "lucas.fernandez@gmail.com",
+    "fechaRegistro": "2026-02-15",
+    "foto": "https://randomuser.me/api/portraits/men/2.jpg",
+    "ultimosPedidos": [
+      "Mesa VIP",
+      "Mesa Estandar",
+      "Mesa Estandar"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Martina Gómez",
+    "mail": "martina.gomez@gmail.com",
+    "fechaRegistro": "2026-03-08",
+    "foto": "https://randomuser.me/api/portraits/women/3.jpg",
+    "ultimosPedidos": [
+      "Mesa Cumpleaños",
+      "Mesa Cumpleaños",
+      "Mesa VIP"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Tomás Ruiz",
+    "mail": "tomas.ruiz@gmail.com",
+    "fechaRegistro": "2026-01-22",
+    "foto": "https://randomuser.me/api/portraits/men/4.jpg",
+    "ultimosPedidos": [
+      "Mesa Estandar",
+      "Mesa Estandar",
+      "Mesa Estandar"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Sofía López",
+    "mail": "sofia.lopez@gmail.com",
+    "fechaRegistro": "2026-04-01",
+    "foto": "https://randomuser.me/api/portraits/women/5.jpg",
+    "ultimosPedidos": [
+      "Mesa VIP",
+      "Mesa VIP",
+      "Mesa Cumpleaños"
+    ]
+  }
+]
