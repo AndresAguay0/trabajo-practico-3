@@ -1,5 +1,5 @@
 const { Router } = require('express')
-const { getEquipo, getEquipoById } = require('../controllers/perfilController')
+const { getPerfilById } = require('../controllers/perfilController')
 
 const rutas = Router()
 
