@@ -1,35 +1,34 @@
 const fs = require('fs').promises
 
-const getPerfilById = async (req, res) => {
-
-    try {
-
-        const data = await fs.readFile('./data/perfil.json', 'utf-8')
-
-        const perfiles = JSON.parse(data)
-
-        const { id } = req.params
-
-        const perfil = perfiles.find(
-            (p) => p.id === parseInt(id)
-        )
-
-        if (!perfil) {
-            return res.status(404).json({
-                msg: 'Perfil no encontrado'
-            })
-        }
-
-        return res.status(200).json(perfil)
-
-    } catch (error) {
-
-        console.log(error)
-
-        return res.status(500).json({
-            error: 'Error interno'
-        })
-    }
+const getPerfil = async (req, res) => {
+  try {
+    const data = await fs.readFile('./data/perfil.json', 'utf-8')
+    const perfil = JSON.parse(data)
+    return res.status(200).json(perfil)
+  } catch (error) {
+    console.log(error)
+    return res.status(500).json({ error: 'No se pudo obtener el perfil' })
+  }
 }
 
-module.exports = { getPerfilById }
+const getPerfilById = async (req, res) => {
+  try {
+    const data = await fs.readFile('./data/perfil.json', 'utf8')
+    const perfiles = JSON.parse(data)
+    const { id } = req.params
+    const idPerfil = perfiles.find((p) => p.id === parseInt(id))
+
+    if (!idPerfil) {
+      return res.status(404).json({ error: `No existe el perfil con id ${id}` })
+    }
+
+    return res.status(200).json(idPerfil)
+  } catch (error) {
+    console.log(error)
+    return res
+      .status(500)
+      .json({ error: `No se pudo obtener el detalle del perfil con id ${id}` })
+  }
+}
+
+module.exports = { getPerfil, getPerfilById }
