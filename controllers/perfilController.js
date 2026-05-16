@@ -16,7 +16,7 @@ const getPerfil = async (req, res) => {
 
 const getPerfilById = async (req, res) => {
   try {
-    const data = await fs.readFile('./data/perfil.json', 'utf8')
+    const data = await fs.readFile(ruta, 'utf8')
     const perfiles = JSON.parse(data)
     const { id } = req.params
     const idPerfil = perfiles.find((p) => p.id === parseInt(id))
