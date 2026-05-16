@@ -2,7 +2,7 @@ const fs = require('fs').promises
 
 const path = require('path')
 
-const ruta = path.join(__dirname, '../data/perfil.json')
+const ruta = path.resolve(__dirname, '../data/perfil.json')
 
 const postLogin = async (req, res) => {
   const { mail, contrasena } = req.body
