@@ -1,8 +1,11 @@
 const fs = require('fs').promises
+const path = require('path')
+
+const ruta = path.resolve(__dirname, '../data/perfil.json')
 
 const getPerfil = async (req, res) => {
   try {
-    const data = await fs.readFile('./data/perfil.json', 'utf-8')
+    const data = await fs.readFile(ruta, 'utf-8')
     const perfil = JSON.parse(data)
     return res.status(200).json(perfil)
   } catch (error) {
@@ -27,7 +30,7 @@ const getPerfilById = async (req, res) => {
     console.log(error)
     return res
       .status(500)
-      .json({ error: `No se pudo obtener el detalle del perfil con id ${id}` })
+      .json({ error: `No se pudo obtener el detalle del perfil` })
   }
 }
 
