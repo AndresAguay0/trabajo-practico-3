@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "nombre": "Ana Torres",
-    "mail": "ana.torres@gmail.com",
+    "nombre": "Ana Banana",
+    "mail": "ana.banana@gmail.com",
     "contrasena": "12345",
     "fechaRegistro": "2026-01-10",
     "foto": "../assets/img/perfil.png",
