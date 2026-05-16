@@ -1,8 +1,11 @@
 const fs = require('fs').promises
-
+const fsSync = require('fs')
 const path = require('path')
 
 const ruta = path.resolve(__dirname, '../data/perfil.json')
+
+console.log('Ruta:', ruta)
+console.log('Existe:', fsSync.existsSync(ruta))
 
 const postLogin = async (req, res) => {
   const { mail, contrasena } = req.body
